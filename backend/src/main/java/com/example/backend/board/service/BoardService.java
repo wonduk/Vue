@@ -25,7 +25,7 @@ public class BoardService {
      * 게시글 목록 가져오기
      */
     public List<BoardDto> getBoardList() {
-        List<BoardEntity> boardEntities = boardRepository.findAll();
+        List<BoardEntity> boardEntities = boardRepository.findAllByOrderByIdxDesc();
         List<BoardDto> dtos = new ArrayList<>();
 
         for (BoardEntity entity : boardEntities) {
