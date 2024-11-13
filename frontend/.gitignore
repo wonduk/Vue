@@ -21,3 +21,6 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+/VUEVUEPROJECT/Vue/frontend/src/images/*
+/VUEVUEPROJECT/Vue/frontend/src/css/*

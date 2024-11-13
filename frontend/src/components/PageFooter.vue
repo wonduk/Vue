@@ -1,10 +1,11 @@
 <template>
-  <div>
-    <hr />
-    <footer>
-      여기는 footer 자리입니다.
-    </footer>
-  </div>
+    <!-- footer -->
+    <div id="footer">
+        <footer>
+            <p>COPYRIGHT 2021 BY CJ Logistics Corporation ALL RIGHT RESERVED.</p>
+        </footer>
+    </div>
+    <!-- footer -->
 </template>
 
 <script>

@@ -34,3 +34,7 @@ build/
 
 ## application.properties ##
 application.properties
+
+*/resources
+
+*\src\main\resources\static\fonts

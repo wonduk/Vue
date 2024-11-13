@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div id="mainWrap">
     <PageHeader /> <!-- 헤더 컴포넌트 -->
-    <router-view />  <!-- 페이지 이동이 표시될 곳 -->
+    <PageMain />
     <PageFooter /> <!-- 푸터 컴포넌트 -->
   </div>
 </template>
@@ -9,12 +9,14 @@
 <script>
 import PageHeader from '@/components/PageHeader'
 import PageFooter from '@/components/PageFooter'
+import PageMain from '@/components/PageMain'
 
 export default {
   name: 'App',
   components: {
     PageFooter,
-    PageHeader
+    PageHeader,
+    PageMain
   }
 }
 </script>

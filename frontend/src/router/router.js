@@ -3,6 +3,8 @@ import PageHome from '@/views/PageHome.vue'
 import BoardList from '@/views/board/BoardList.vue'
 import BoardDetail from '@/views/board/BoardDetail.vue'
 import BoardWrite from '@/views/board/BoardWrite.vue'
+import UserInfo from '@/views/menu/UserInfo.vue'
+import UserSubscriptionStatus from '@/views/menu/UserSubscriptionStatus.vue'
 
 const routes = [
   {
@@ -32,6 +34,16 @@ const routes = [
     path: '/board/write',
     name: 'BoardWrite',
     component: BoardWrite
+  },
+  {
+    path: '/user/info',
+    name: 'UserInfo',
+    component: UserInfo
+  },
+  {
+    path: '/user/subscriptionStatus',
+    name: 'UserSrch',
+    component: UserSubscriptionStatus
   }
 ]
 
