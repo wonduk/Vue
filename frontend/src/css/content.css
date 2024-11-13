@@ -268,7 +268,7 @@ button:disabled{opacity:0.3;cursor:default}
 
 /* tooltip */
 .tooltip_map{width:300px;background:#fff;box-shadow:0 3px 6px 0 rgba(0, 0, 0, 0.16)}
-.tooltip_map .title{display:flex;padding:20px;border-bottom:1px solid #ccc}
+/* .tooltip_map .title{display:flex;padding:20px;border-bottom:1px solid #ccc} */
 .tooltip_map .title span{display:flex;align-items:center;font-size:18px;font-weight:700}
 .tooltip_map .title span button{margin-left:10px}
 .tooltip_map .title button.close{width:16px;text-indent:-9999em;margin-left:auto;background:url(../images/ico-close.png) no-repeat center center;background-size:16px 16px}

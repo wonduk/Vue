@@ -6,8 +6,8 @@
           <div class="lnb-area">
               <div class="control-bar">                   
                   <div class="control-left"> <strong class="title">MENU</strong>
-                      <button type="button" class="btn-menu-show" @click='isMenuOpen()'>메뉴펼치기</button>
-                      <button type="button" class="btn-menu-hide" @click='isMenuOpen()'>메뉴접기</button>
+                      <button type="button" class="btn-menu-show" @click='isMenuOpen(true)'>메뉴펼치기</button>
+                      <button type="button" class="btn-menu-hide" @click='isMenuOpen(false)'>메뉴접기</button>
                   </div>
                   <div class="control-right">
                       <button type="button" class="btn favorate-toggle">즐겨찾기</button>
@@ -121,9 +121,14 @@
       this.menuItems[index].isOpen = !this.menuItems[index].isOpen;
     },
 
-    isMenuOpen(){
-      console.log('dsaadsadsadsadsads');
-      this.menuItems.isOpen = true;
+    // 모든 메뉴 항목을 열기
+    isMenuOpen(val) {
+      this.menuItems.forEach(item => {
+        if(val == true)
+        item.isOpen = true;
+        else if(val == false)
+        item.isOpen = false;
+      });
     }
   }
 };

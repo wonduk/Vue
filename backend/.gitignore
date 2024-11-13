@@ -37,4 +37,5 @@ application.properties
 
 */resources
 
-*\src\main\resources\static\fonts
+**/main/src/main/resources/static/fonts/
+**/amin/src/main/resources/static/img/

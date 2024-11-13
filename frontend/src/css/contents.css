@@ -62,10 +62,10 @@ input[type="checkbox"]:disabled:hover{border: 1px solid #ccc;}
 input[type="checkbox"]:disabled+label {color: #999;}
 input[type="checkbox"]+label {vertical-align: middle; display: inline-block; margin-bottom: 0;}
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {   
+/* @media screen and (-webkit-min-device-pixel-ratio:0) {   
     input[type="checkbox"]{margin-top: 2px !important;} 
     .aui-form-wrap input[type="checkbox"]{margin-top: 0 !important; vertical-align: top} 
-}
+} */
 
 /* radio */
 input[type="radio"]::-ms-check {box-sizing: border-box; border: 1px solid #ccc; border-radius: 100%; width: 13px; height: 13px; background: #fff; color: transparent; -webkit-appearance: none; appearance: none; margin-top: 0 !important;}

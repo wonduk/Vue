@@ -132,6 +132,7 @@ b{}
 .mailContent01{border:1px solid #dddddd; background:#fafafa; text-align:center; color:#555555; font-size:14px}
 .mailContent01 dl{overflow:hidden; padding:200px 0 40px 0;}
 
+.mailIco17{background: no-repeat center 30px;}
 /* .mailIco17{background:url("/images/mail-ico17.png") no-repeat center 30px;} ★해당이미지없음 */
 
 
@@ -140,6 +141,7 @@ b{}
 .mailContent01 dd{margin-top:20px;}
 
 .mailContent02AreaL dl{color:#ffffff}
+.mailingDeco01{position:absolute; top:0; left:0; width:56px; height:68px; text-align:center;  font-size:16px; background: no-repeat 0 0;}
 /* .mailingDeco01{position:absolute; top:0; left:0; width:56px; height:68px; text-align:center;  font-size:16px; background:url('/EACCT/images/mail/ideaDeco01.png') no-repeat 0 0;} ★해당이미지없음*/
 
 .mailContent02AreaL dt{padding:7px 0 0 0}
